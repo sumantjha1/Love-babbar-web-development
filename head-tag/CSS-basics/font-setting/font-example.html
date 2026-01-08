@@ -1,23 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FontExample</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <style>
+      p {
+        font-style: italic;
+        font-size: 10px;
+        font-weight: 100;
+        line-height: 90px;
+      }
 
-        p{
-            font-style: italic;
-            font-size: 10px;
-        }
+      #firstPara{
+        background-color: red;
+        color:yellow;
+      }
+      #secondPara{
+        background-color: rgb(red, green, blue);
+        color: aqua;
+      }
+      .firstClass{
+        background-color: #ffab20;
+      }
+      .lastClass{
+        background-color: hsl(hue, saturation, lightness);
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Welcome to coding</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, laboriosam voluptatum sint molestiae saepe vel cum eius quam omnis quis ad maxime illo. Quisquam corrupti sint ex amet, quo et?
+    <p id="firstPara">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita,
+      laboriosam voluptatum sint molestiae saepe vel cum eius quam omnis quis ad
+      maxime illo. Quisquam corrupti sint ex amet, quo et?
     </p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas odio qui ab quaerat non fuga quia, est provident ratione molestias totam, eum aperiam, illo beatae deserunt rerum? Error, maxime quam!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique qui labore recusandae nulla praesentium saepe magnam autem laborum itaque nisi, voluptas eaque dolor quos a minima quasi quisquam velit voluptates. Reprehenderit quam est et ipsum minus! Cumque pariatur ut debitis!</p>
-</body>
+    <p id="secondPara">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas odio qui
+      ab quaerat non fuga quia, est provident ratione molestias totam, eum
+      aperiam, illo beatae deserunt rerum? Error, maxime quam!
+    </p>
+    <p id="thirdPara">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique qui
+      labore recusandae nulla praesentium saepe magnam autem laborum itaque
+      nisi, voluptas eaque dolor quos a minima quasi quisquam velit voluptates.
+      Reprehenderit quam est et ipsum minus! Cumque pariatur ut debitis!
+    </p>
+    <p class="firstClass">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi molestias amet, libero officia totam, error sit ea aut est deserunt sint. Neque pariatur laudantium mollitia veritatis, cupiditate vitae praesentium veniam quas doloribus consequuntur.</p>
+    <p class="lastClass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut recusandae exercitationem possimus nam, optio cupiditate provident repellat incidunt. Dolorem facere culpa, omnis illum aliquam inventore veniam sed, aspernatur, quia in dolor deserunt odio blanditiis. Aut nihil laboriosam eligendi commodi dignissimos expedita molestiae accusamus recusandae ducimus quidem, dolore voluptatum ea qui est laudantium ipsa quia quasi ab velit praesentium et obcaecati nam magni veritatis! Doloribus nihil repudiandae facilis sunt amet quasi minus, eius inventore fugiat ratione similique nulla quam praesentium. Doloremque cupiditate assumenda, nostrum eligendi ipsam soluta ea amet unde alias, nulla voluptatibus fugiat placeat nisi ducimus ut ullam eum iure?</p>
+  </body>
 </html>
